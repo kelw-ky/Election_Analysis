@@ -33,7 +33,7 @@ The anaylsis of the election show that:
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 -The winner of the election was Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-![Election Results](/Resources/Election Results.png)
+![Election_Results](/Resources/Election_Results.png)
 
 ## Election Audit Summary
 With sight changes to this python code, this code could be used for other elections as well. Adjustments that might need to happen to the code for different elections would be if the CSV file name was changed then the path will have to be updated to reflect that name. "file_to_load = os.path.join("Resources", "election_results.csv")". "Resources" and "election_results.csv" would have to be change to appropiate folder name and to the correct file name respectively. If where the column number was changed, then that would have to updated in the code as well. " candidate_name = row[2]" and "county_name = row[1]" The [2] and [1] would have to be changed to the new column number minus 1. 
