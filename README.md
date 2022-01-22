@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit
 A Colorado Board of Election employee have given you the following tasks to complete the election audit of a recent local congressional election. 
 
 1. Calculate the total number of votes cast.
@@ -13,7 +13,7 @@ A Colorado Board of Election employee have given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.10.1, Visual Studio Code, 1.63.2
 
-## Summary
+## Election Audit Results
 The anaylsis of the election show that: 
 
 - There were 369,711 votes cast in the election. 
@@ -33,9 +33,7 @@ The anaylsis of the election show that:
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 -The winner of the election was Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
+![Election Results](/Resources/Election Results.png)
 
-## Challenge Overview
-
-## Challenge Summary
-
-
+## Election Audit Summary
+With sight changes to this python code, this code could be used for other elections as well. Adjustments that might need to happen to the code for different elections would be if the CSV file name was changed then the path will have to be updated to reflect that name. "file_to_load = os.path.join("Resources", "election_results.csv")". "Resources" and "election_results.csv" would have to be change to appropiate folder name and to the correct file name respectively. If where the column number was changed, then that would have to updated in the code as well. " candidate_name = row[2]" and "county_name = row[1]" The [2] and [1] would have to be changed to the new column number minus 1. 
